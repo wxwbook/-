@@ -1,0 +1,29 @@
+// checkHBOMax.js
+(async () => {
+  let url = "https://play.hbomax.com";
+  let options = {
+    url: url,
+    headers: {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36",
+      "Accept-Language": "en-US,en;q=0.9"
+    }
+  };
+  
+  try {
+    const response = await httpClient.get(options);
+    
+    // 判断是否包含特定的文本来识别解锁状态
+    if (response.statusCode === 200) {
+      if (response.body.includes("Start Your Free Trial") || response.body.includes("Sign Up Now")) {
+        $notification.post("HBO Max 解锁检测", "当前 IP 支持 HBO Max", "可以播放");
+      } else {
+        $notification.post("HBO Max 解锁检测", "当前 IP 不支持完整 HBO Max", "仅提供部分内容");
+      }
+    } else {
+      $notification.post("HBO Max 解锁检测", "检测失败", "请检查网络连接");
+    }
+  } catch (error) {
+    $notification.post("HBO Max 解锁检测", "检测失败", "网络错误或无法连接到 HBO Max");
+  }
+  $done();
+})();
