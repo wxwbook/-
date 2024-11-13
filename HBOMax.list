@@ -5,7 +5,6 @@ DOMAIN-SUFFIX,hboasia.com,Proxy
 DOMAIN-SUFFIX,warnerbros.com,Proxy
 DOMAIN-KEYWORD,hbo,Proxy
 DOMAIN-KEYWORD,wb,Proxy
-[Rule]
 # 将域名与检测脚本关联
 DOMAIN-SUFFIX,netflix.com,netflix
 DOMAIN-SUFFIX,disneyplus.com,disneyplus
