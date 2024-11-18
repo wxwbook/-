@@ -1,8 +1,8 @@
 # HBO
-DOMAIN-SUFFIX,hbomax.com,Proxy
-DOMAIN-SUFFIX,hbo.com,Proxy
-DOMAIN-SUFFIX,hboasia.com,Proxy
-DOMAIN-SUFFIX,warnerbros.com,Proxy
-DOMAIN-KEYWORD,hbo,Proxy
-DOMAIN-KEYWORD,wb,Proxy
+DOMAIN-SUFFIX,hbomax.com,Proxy Group
+DOMAIN-SUFFIX,hbo.com,Proxy Group
+DOMAIN-SUFFIX,hboasia.com,Proxy Group
+DOMAIN-SUFFIX,warnerbros.com,Proxy Group
+DOMAIN-KEYWORD,hbo,Proxy Group
+DOMAIN-KEYWORD,wb,Proxy Group
 
