@@ -1,4 +1,13 @@
-# > HBO MAX
+# > HBO Max 分流域名规则
+DOMAIN-SUFFIX,prd.api.discomax.com
 DOMAIN-SUFFIX,media.max.com
-DOMAIN-SUFFIX,discomax.com
-
+DOMAIN-SUFFIX,prd.api.max.com
+DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX:hbo.com
+DOMAIN-SUFFIX:hboasia.com
+DOMAIN-SUFFIX:hboespana.com
+DOMAIN-SUFFIX:hbo.max
+DOMAIN-SUFFIX:hbomax.com
+DOMAIN-SUFFIX:warnermediagroup.com
+DOMAIN-SUFFIX:warnermedia.com
+DOMAIN-SUFFIX:whipclip.com
