@@ -3,5 +3,13 @@
 # UPDATED: 2023-07-10
 DOMAIN-SUFFIX,ani.gamer.com.tw
 DOMAIN-SUFFIX,gamer.com.tw
-DOMAIN-SUFFIX,cloudfront.net
+# 动画疯相关 CDN
 DOMAIN-SUFFIX,gamer-cds.cdn.hinet.net
+DOMAIN-SUFFIX,cf.gamer.com.tw
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,akamaihd.net
+DOMAIN-SUFFIX,fastly.net
+# 动画疯直播及视频资源
+DOMAIN-SUFFIX,bcovlive-a.akamaihd.net
+DOMAIN-SUFFIX,edgecast-vod.yahoo.net
