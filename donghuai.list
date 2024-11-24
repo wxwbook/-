@@ -1,6 +1,7 @@
-# 动画疯主域名
+# NAME: 动画疯主域名
+# AUTHOR: 6666
+# UPDATED: 2023-07-10
 DOMAIN-SUFFIX,ani.gamer.com.tw
-# 动画疯相关域名
 DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,gamer-cds.cdn.hinet.net
